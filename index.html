@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ hotstar clone</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul class="nav-items">
+            <li class="nav-links" id="links1"><img src="images/hotstar.jpg" class="hotstar_img" alt="load error"></li>
+            <li class="nav-links" id="links2"><a href="#">TV</a></li>
+            <li class="nav-links" id="links3"><a href="#">Movies</a></li>
+            <li class="nav-links" id="links4"><a href="#">Sports</a></li>
+            <li class="nav-links" id="links5"><a href="#">Premium</a></li>
+        </ul>
+        <div class="searchbar">
+            <input type="text" class="searchtext" placeholder="Search">
+            <button class="subscribe">Subscribe</button>
+            <a href="#" class="Login">Login</a>
+        </div>
+    </nav>
+    <div class="carosuel_container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="content">
+                    <h1 class="movie_title">Loki </h1>         
+                    <p class="movie_desc"> After stealing the Tesseract in Avengers: Endgame, Loki lands before the Time Variance Authority. Mobius puts Loki to work, but not everyone at TVA is thrilled about the God of Mischief's presence. Loki finds out The Variant's plans, but he has his own that will forever alter both their destinies.</p>
+                </div>
+                <img src="images/slider 1.PNG" alt="Loki s2" class="Slider_img">
+            </div> -->
+        </div>
+    </div>
+    <div class="video_btn">
+        <div class="video_cards">
+            <img src="images/disney.png" alt="disney logo" class="video_card_img">
+            <video src="./videos/disney.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="video_cards">
+            <img src="images/pixar.PNG" alt="pixar logo" class="video_card_img">
+            <video src="./videos/pixar.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="video_cards">
+            <img src="images/marvel.PNG" alt="marvel logo" class="video_card_img">
+            <video src="./videos/marvel.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="video_cards">
+            <img src="images/geographic.PNG" alt="geographic logo" class="video_card_img">
+            <video src="./videos/geographic.mp4" muted loop class="videos"></video>
+        </div>
+        <div class="video_cards">
+            <img src="images/star-wars.PNG" alt="star-war logo" class="video_card_img">
+            <video src="./videos/star-war.mp4" muted loop class="videos"></video>
+        </div>
+    </div>
+    <div class="movies">
+        <h1 class="title">Recommended For You</h1>
+        <div class="movie_list">
+            <button class="pre_btn" title="btn">
+                <img src="./images/pre.png" alt="pre-img" class="pre_img">
+            </button>
+            
+            <div class="movie_cards">
+                <div class="card">
+                    <img src="images/salaar.png" alt="salaar" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Salaar</h2>
+                        <h6 class="desc">18+,Action</h6>
+                        <button class="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/loki2.png" alt="Loki2" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Loki Season 2</h2>
+                        <h6 class="desc">Sci-fi,Action,Magic</h6>
+                        <button class="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/spidey.png" alt="spiderman across the spiderVerse" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Spider-Man: Across the spider verse</h2>
+                        <h6 class="desc">Sci-fi,Action,Comedy</h6>
+                        <button class="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/dunki.png" alt="Dunki" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Dunki</h2>
+                        <h6 class="desc">Comedy,Action</h6>
+                        <button class="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 5.png" alt="Thor Ragnarok" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Thor Ragnarok</h2>
+                        <h6 class="desc">Action, Sci-fi</h6>
+                        <button class="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 6.png" alt="Avengers" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Avengers</h2>
+                        <h6 class="desc">Sci-fi,Action,SuperHeroes</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/elementals.png" alt="Elementals" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Pixar's Elementals</h2>
+                        <h6 class="desc">Slice of Life,Comedy,Animation</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Spidey_nwh.png" alt="Spider-Man:No Way Home" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Spider-Man:No Way Home</h2>
+                        <h6 class="desc">Action,Sci-fi,SuperHeroes</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/shanghi.png" alt="Shang-chi and the legend of ten rings<" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Shang-chi and the legend of ten rings</h2>
+                        <h6 class="desc">Action,Martial-arts,Magic,SuperHeroes</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/12thFail.png" alt="12th Fail" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">12th Fail</h2>
+                        <h6 class="desc">Motivational</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/AngryBirds.png" alt="Angry Birds" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Angry Birds The Movie</h2>
+                        <h6 class="desc">Action,Comedy,Animation</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/EvilResident.png" alt="Evil Resident: The Racoon City" class="card_img">
+                    <div class="card_info">
+                        <h2 class="name">Evil Resident: Welcome to Racoon City</h2>
+                        <h6 class="desc">Action,Horror</h6>
+                        <button class="watchlist_btn" id="watchlist_btn">Add to Watchlist</button>
+                    </div>
+                </div>
+                </div>
+                <button class="nxt_btn" title="btn">
+                    <img src="./images/nxt.png" alt="nxt_img" class="nxt_img">
+                </button>
+                <script src="script.js" async></script>
+            </body>
+</html>
